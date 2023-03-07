@@ -1,11 +1,11 @@
   { config, pkgs, lib, ... }:
 
 let
-    user = "costabo1";
-    password = "altex97666";
-    SSID = "SpectrumSetup-F0";
-    SSIDpassword = "contentclock653";
-    interface = "wlan0";
+    user = "";
+    password = "";
+    SSID = "";
+    SSIDpassword = "";
+    interface = "";
     hostname = "Nixos"; 
 
   nix.settings = {
